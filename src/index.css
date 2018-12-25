@@ -1,0 +1,85 @@
+body {
+  margin: 20;
+  padding: 20;
+  background-image:url(https://img1.picmix.com/output/stamp/normal/5/9/2/9/539295_78c26.gif) ;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #dd072c;
+  color: white;
+
+}
+
+button:hover {
+ cursor: pointer; 
+}
+
+.board {
+    width: 65vh;
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 33.33vw;
+  }
+  
+  .square {
+    border: 2px solid #0066cc;
+    border-radius: 3vw;
+    text-align: center;
+    height: 20vh;
+    width: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 9vw;
+    box-shadow: 10vw;
+  }
+
+.square:focus{
+    outline:none
+}
+
+.show{
+    font-size:5vw;
+    color:white;
+    -webkit-transition-duration:.5s;
+    transition-duration:.5s;
+    -webkit-transition-timing-function:ease-out;
+    transition-timing-function:ease-out
+}
+  
+
+/*.kbd-navigation .square:focus {
+    background: #ddd;
+  }
+*/
+
+.leftarrow, .rightarrow {
+    border: none;
+    height: 10vw;
+    width: 10vw;
+    position: absolute;
+    font-size: 8vw;
+    top: 9vh;
+    color: white;
+    background-color: transparent; 
+  }
+  
+  .leftarrow  {
+    left: 8vw;
+  }
+  
+  .rightarrow {
+    right: 8vw;
+  }  
