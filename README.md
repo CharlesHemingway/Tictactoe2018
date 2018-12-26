@@ -6,7 +6,7 @@
 
 
  ## Issues
-Boarding.js is causing a 120 second delay 12/24/2018
+Boarding.js is causing minor  delay 12/24/2018
 
 
 
