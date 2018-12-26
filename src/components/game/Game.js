@@ -1,8 +1,6 @@
 import React, { Component } from 'react'
 import Human from '../players/Human'
 import AI from '../players/Ai'
-//import PropTypes from 'prop-types';
-// import Button from '@material-ui/core/Button';
 import Fab from '@material-ui/core/Fab';
 import GroupIcon from '@material-ui/icons/Group';
 import PersonIcon from '@material-ui/icons/Person';

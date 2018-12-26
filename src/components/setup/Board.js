@@ -1,13 +1,13 @@
 import React, { Component, Fragment } from 'react'
 import Square from './Square'
 import Result from './Result'
-import { calculateWinner, gameOver, getAvailableSpots } from '../../utils/helpers'
+import {gameOver, getAvailableSpots, calculateWinner} from '../../utils/helpers'
 
 export default class Board extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      squares: Array(10).fill(null),
+      squares: Array(8).fill(null),
       xIsNext: true,
       firstPlayer: this.props.value,
       humanPlayer: this.props.value,
@@ -23,7 +23,7 @@ export default class Board extends Component {
           xIsNext: !this.state.xIsNext
         })
       }.bind(this),
-      200
+      400
     )
   }
 

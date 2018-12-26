@@ -60,10 +60,10 @@ button:hover {
 }
   
 
-/*.kbd-navigation .square:focus {
+.kbd-navigation .square:focus {
     background: #ddd;
   }
-*/
+
 
 .leftarrow, .rightarrow {
     border: none;
